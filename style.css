@@ -1,1 +1,46 @@
+html {
+  background: #e3e3e3;
+}
 
+body {
+  font-family Arial, Helvetica, sans-serif;
+  margin: 50px;
+  padding: 50px;
+  color: #242424;
+  border-top: 10px solid #242424;
+  background: #fff;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3em;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+#blog {
+  border-top: 1px solid #ccc;
+}
+
+.blog-post {
+  border-bottom: 1px solid #ccc;
+}
+
+article {
+  border-bottom: 3px solid #ccc;
+}
+
+section {
+  border-top: 3px solid #ccc;
+}
+
+nav {
+  font-size: 4em;
+}

@@ -57,12 +57,9 @@ section {
 
 nav {
   font-size: 3em;
-  position: sticky;
-  top: 0;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+div {
+  position: sticky;
+  top: 0; 
 }

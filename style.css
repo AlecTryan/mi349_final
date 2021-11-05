@@ -14,6 +14,8 @@ body {
 h1 {
   font-size: 5em;
   margin: 0;
+  position: sticky;
+  top: 0;
 }
 
 h2 {
@@ -31,10 +33,23 @@ p {
 
 .blog-post {
   border-bottom: 1px solid #ccc;
+  column-count: 2;
 }
 
 article {
   border-bottom: 3px solid #ccc;
+}
+
+article:nthoftype(1) {
+  flex: 1;
+}
+
+article:nthoftype(2) {
+  flex: 2;
+}
+
+article:nthoftype(3) {
+  flex: 1;
 }
 
 section {
@@ -44,3 +59,6 @@ section {
 nav {
   font-size: 3em;
 }
+
+
+

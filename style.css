@@ -43,6 +43,9 @@ section {
 
 nav {
   font-size: 3em;
+}
+
+#navbar {
   position: sticky;
   position: -webkit-sticky;
   top: 0;

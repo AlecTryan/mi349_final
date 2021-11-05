@@ -43,4 +43,7 @@ section {
 
 nav {
   font-size: 3em;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }

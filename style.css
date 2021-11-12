@@ -63,3 +63,9 @@ figure {
   margin: 0.7em;
   padding: 0.7em;
 }
+
+@media (max-width: 400px){
+    #c1 {
+        background: blue;
+    }
+}

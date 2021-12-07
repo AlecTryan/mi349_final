@@ -69,3 +69,15 @@ figure {
         background: blue;
     }
 }
+
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+}
+
+<img class="resize" src="example.jpg"/>
